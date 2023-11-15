@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pokecard {
+    border: 1px solid #ab9999;
+    background-color: rgba(59, 59, 221, 0.703);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .pokedex {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center; /* Center the pokecards horizontally */
+    align-items: center; /* Center the pokecards vertically */
+    flex-wrap: wrap; 
+  }
+  
+  .pokedex.winner {
+    border: 2px solid green;
+    background-color: rgba(97, 221, 59, 0.64);
+  }
+  
+  .winner-message {
+    color: green;
+    font-weight: bold;
+  }
+
+  #title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 50px;
+  }
+
+  #dex {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 50px;
+  }
+
+  .app {
+    background-image: url("https://images6.fanpop.com/image/photos/40000000/Pokemon-Background-Designs40-random-40057516-1920-1080.jpg");
+    width: 100vw;
+    margin: 0 auto;
+    white-space: normal; 
+    overflow: auto;
+  }
